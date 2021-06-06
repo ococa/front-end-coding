@@ -212,6 +212,11 @@
     "@babel/helper-validator-identifier" "^7.14.0"
     to-fast-properties "^2.0.0"
 
+"@types/node@^15.12.1":
+  version "15.12.1"
+  resolved "https://registry.nlark.com/@types/node/download/@types/node-15.12.1.tgz#9b60797dee1895383a725f828a869c86c6caa5c2"
+  integrity sha1-m2B5fe4YlTg6cl+CioachsbKpcI=
+
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.nlark.com/@types/prop-types/download/@types/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
