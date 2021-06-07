@@ -1,12 +1,20 @@
+import {promiseTest} from './MyPromise/myPromise';
 
-const dom = document.getElementById('root');
-if(dom) {
-  dom.innerHTML = '123';
-}
 
-function  a () {
+console.log('start');
 
-}
+const promiseResult = promiseTest('promise');
+const myPromiseResult = promiseTest('myPromise');
+
+console.log('promise result', promiseResult)
+console.log('myPromise result', myPromiseResult)
+
+setTimeout(() => {
+  console.log('promise result', promiseResult)
+  console.log('myPromise result', myPromiseResult)
+}, 1000)
+
+console.log('end');
+
 export  {
-a
 }
