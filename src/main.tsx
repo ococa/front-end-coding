@@ -1,11 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
 import App from './App'
 
+const ele = (
+  <div>hhhhhh1</div>
+)
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    { ele }
   </React.StrictMode>,
   document.getElementById('root')
 )
