@@ -1,0 +1,26 @@
+{
+  "name": "sampleReact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./index.html"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.1",
+    "@types/parcel-bundler": "^1.12.3",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
