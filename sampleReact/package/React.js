@@ -1,21 +1,24 @@
-const React = {
-}
+import Component from './Component';
 
-const createElement = (type, attrs, ...children) => {
+const React = {}
 
-    const { key, ...restAttr } = attrs = {};
-
-    return {
-      type: type,
-      props: {
-        children,
-        ...restAttr,
-      },
-      $$typeof: type,
-      key,
-    }
+const createElement = (type, attrs = {}, ...children) => {
+  if (attrs === null) {
+    attrs = {};
+  }
+  const { key, ...restAttr } = attrs;
+  return {
+    type: type,
+    props: {
+      children,
+      ...restAttr,
+    },
+    $$typeof: type,
+    key,
+  }
 }
 
 React.createElement = createElement;
+React.Component = Component;
 
 export default React;
