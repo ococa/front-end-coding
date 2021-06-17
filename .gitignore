@@ -1,7 +1,10 @@
 node_modules
 .DS_Store
-dist
+*/dist/*
+*/.cache
+*/node_modules
 dist-ssr
 *.local
 .idea
 .vscode
+*.log
