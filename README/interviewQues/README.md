@@ -37,3 +37,29 @@
 1. 取出数组中前n大的树
 
 
+coding
+```
+var arrays = [[1,2,3],['a','b'],['你','我'], ['x']];
+console.log(getArrays(arrays))
+//["1a你", "1a我", "1b你", "1b我", "2a你", "2a我", "2b你", "2b我", "3a你", "3a我", "3b你", "3b我"]
+
+function getArrays(arrays){
+	var arr = [""];
+	arrays.forEach((item,idx) => {
+		arr = getValues(arr,item);
+	})
+	return arr;
+}
+
+function getValues(arr1,arr2){
+	var arr = [];
+	arr1.forEach((item,index) => {
+		arr2.forEach((opt,idx) => {
+			arr.push(item+opt);
+		})
+	})
+	return arr;
+}
+
+[true, true]
+```
