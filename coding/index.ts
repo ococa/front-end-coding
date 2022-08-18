@@ -1,12 +1,15 @@
+import { testPrintN } from "./printN/testPrintN";
 
 const dom = document.getElementById('root');
+
+
 if(dom) {
-  dom.innerHTML = '123';
+  dom.innerHTML = testPrintN();
 }
 
 function  a () {
 
 }
 export  {
-a
+  a
 }
