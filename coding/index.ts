@@ -1,10 +1,12 @@
 import { testPrintN } from "./printN/testPrintN";
+import { testPolynomiaSum } from "./polynomialSum/_text";
 
 const dom = document.getElementById('root');
 
 
 if(dom) {
-  dom.innerHTML = testPrintN();
+  testPolynomiaSum()
+  // dom.innerHTML = testPrintN();
 }
 
 function  a () {
